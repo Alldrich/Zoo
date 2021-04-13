@@ -14,7 +14,7 @@ def guess_age():
     print('Enter remainders of dividing your age by 3, 5 and 7.')
 
     rem3 = int(input())
-    rem5 = int(input())
+    rem5 = int(input()) 
     rem7 = int(input())
     age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
 
